@@ -1,0 +1,15 @@
+picture {
+  @media only screen and (min-width: 768px) {
+    height: 100%;
+  }
+  .fullSizeCarImage {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+    object-fit: cover;
+    object-position: center;
+  }
+}
